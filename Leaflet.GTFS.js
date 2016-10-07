@@ -138,7 +138,7 @@
         var cellArea = L.rectangle(bounds, {color: "#000000", weight: 1});
 
         var value = {x: iLat, y: iLon, cellArea: cellArea};
-        console.log('grid position: (' + value.x + ',' + value.y + ')');
+        //console.log('grid position: (' + value.x + ',' + value.y + ')');
         return value;
     },
 
@@ -156,7 +156,7 @@
                 return false;
             }
         });
-        console.log('services: ' + services.join());
+        //console.log('services: ' + services.join());
         
         return services;
     },
@@ -175,7 +175,7 @@
             var route = routeData[service];
             routes.push({service: service, route: route});
         });
-        console.log(routes);
+        //console.log(routes);
         
         return routes;
     },
@@ -201,9 +201,11 @@
             });
             
             var serviceWithoutDirection = r.service.substring(0, r.service.length - 1);
-            var colorId = serviceData[serviceWithoutDirection].color_id;
             
-            var polyline = L.polyline(points, {color: '#'+self.getRouteColor(colorId), smoothFactor: 5.0});
+            var polyline = L.polyline(points, {
+				color: self.getRouteColor(serviceWithoutDirection), 
+				smoothFactor: 5.0
+				});
             routeLayer.addLayer(polyline);
         });
         
@@ -332,36 +334,38 @@
      * @parameter colorId color id related to operator of service.
      * @return hexadecimal color
      */
-	getRouteColor: function (colorId) {
+	getRouteColor: function (service) {
 		var color;
+		
+		var colorId = this.data.service[service].color_id;
 		
         switch(colorId) {
             case 1:
-                color = 'ED1C24';
+                color = '#ED1C24';
                 break;
             case 2:
-                color = 'F58220';
+                color = '#F58220';
                 break;
             case 3:
-                color = 'FFD400';
+                color = '#FFD400';
                 break;
             case 4:
-                color = '00D5FF';
+                color = '#00D5FF';
                 break;
             case 5:
-                color = '0067AC';
+                color = '#0067AC';
                 break;
             case 6:
-                color = '00B33C';
+                color = '#00B33C';
                 break;
             case 7:
-                color = '00D9A3';
+                color = '#00D9A3';
                 break;
             default:
-                color = 'ffffff';
+                color = '#ffffff';
         }
 		
-		return color;		
+		return color;
 	}
     
 }, window));
