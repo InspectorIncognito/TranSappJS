@@ -109,7 +109,10 @@
             "outdoor": outdoorStyle,
         };
         // revisar porque no funciona
-        //L.control.layers(baseMaps).addTo(map);
+        //L.control.layers(baseMaps, {}).addTo(map);
+		
+		//return baseMaps;
+		return grayLayer;
     },
     
     /** 
@@ -222,16 +225,7 @@
     drawStopsForService: function(stopLayer, service, direction) {
         stopLayer.clearLayers();
             
-        var stopIcon = L.icon({
-            iconUrl: this.dataUrl + 'img/paradero.png',
-            //shadowUrl: '',
-            
-            iconSize:     [32, 48],   // size of the icon
-            //shadowSize:   [50, 64], // size of the shadow
-            iconAnchor:   [16, 48],   // point of the icon which will correspond to marker's location
-            //shadowAnchor: [26, 15], // the same for the shadow
-            popupAnchor:  [0, -48],    // point from which the popup should open relative to the iconAnchor
-        });
+        var stopIcon = this.getBusStopIcon();
         var stops = this.data.service[service]['stops' + direction].split('-');
         var stopData = this.data.busStop;
         $.each(stops, function(i, code){
@@ -248,6 +242,31 @@
         return stopLayer;
     },
     
+    /** 
+     * draw bus stops for specific service
+     * 
+     * @parameter stopLayer Leaflet layer with the current stops drawed on map
+     * @parameter stops     Array of stops code
+     */
+    drawStops: function(stopLayer, stops) {
+        stopLayer.clearLayers();
+            
+        var stopIcon = this.getBusStopIcon();
+        var stopData = this.data.busStop;
+        $.each(stops, function(i, code){
+            var stop = stopData[code];
+            var latLng = L.latLng(stop.latitude, stop.longitude);
+            var marker = L.marker(latLng, {
+                icon: stopIcon, 
+                zIndexOffset: -1000 // send stops below other layers
+                });
+            marker.bindPopup("<p>" + code + " - " + stop.name + "<br />" + i + "<br />" + stop.services + "</p>");
+            stopLayer.addLayer(marker);
+        });
+        
+        return stopLayer;
+    },
+	
     /** 
      * draw services in web page, it uses bootstrap pills. It uses service data
      * 
@@ -282,7 +301,7 @@
      * @parameter service Service name that we need its icon.
      * @return L.icon object
      */
-    getBusIcon: function(service) {
+    getBusIcon: function(service, direction) {
         
         var colorId = this.data.service[service].color_id;
         var busId;
@@ -315,7 +334,7 @@
         
         // doc: http://leafletjs.com/reference.html#icon
         var icon = L.icon({
-            iconUrl: this.dataUrl + 'img/bus' + busId + '.png',
+            iconUrl: this.dataUrl + 'img/bus' + busId + direction +'.png',
             //shadowUrl: '',
             
             iconSize:     [52, 29], // size of the icon
@@ -327,6 +346,21 @@
         
         return icon;
     },
+	
+	getBusStopIcon: function() {
+		var icon = L.icon({
+            iconUrl: this.dataUrl + 'img/paradero.png',
+            //shadowUrl: '',
+            
+            iconSize:     [32, 48],   // size of the icon
+            //shadowSize:   [50, 64], // size of the shadow
+            iconAnchor:   [16, 48],   // point of the icon which will correspond to marker's location
+            //shadowAnchor: [26, 15], // the same for the shadow
+            popupAnchor:  [0, -48],    // point from which the popup should open relative to the iconAnchor
+        });
+        
+        return icon;		
+	}, 
 	
     /** 
      * get hexadecimal color based on operator id
