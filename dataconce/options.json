@@ -1,0 +1,22 @@
+{
+  "name": "concepcion",
+  "token": "pk.eyJ1IjoidHJhbnNhcHB2aXMiLCJhIjoiY2l0bG9qd3ppMDBiNjJ6bXBpY3J0bm40cCJ9.ajifidV4ypi0cXgiGQwR-A",
+  "boundingBox": {
+    "MIN_LATITUDE": -36.8464,
+    "MIN_LONGITUDE": -73.0803,
+    "MAX_LATITUDE": -36.8056,
+    "MAX_LONGITUDE": -73.0294,
+    "SIDE_LAT": 0.0408,
+    "SIDE_LON": 0.0509
+  },
+  "buses": {
+    "1": {
+      "id": "02",
+      "color": "#ED1C24"
+    },
+    "default": {
+      "id": "01",
+      "color": "#ffffff"
+    }
+  }
+}

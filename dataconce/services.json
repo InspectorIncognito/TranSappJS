@@ -1,0 +1,1379 @@
+{
+   "02a": {
+      "origin": "Centinela",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "Andalien 630",
+      "stopsR": "12 De Octubre | Cancha De Futbol",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "02d": {
+      "origin": "Diego Portales",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "02k": {
+      "origin": "Los Copihues",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "02p": {
+      "origin": "Pe�uelas",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "10a": {
+      "origin": "Centinela",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "10b": {
+      "origin": "Lobos Viejos",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "10c": {
+      "origin": "Las Canchas",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "10d": {
+      "origin": "Las Canchas",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "10j": {
+      "origin": "Centinela",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "10k": {
+      "origin": "Chiguayante",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "10l": {
+      "origin": "Los Bloques",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "10m": {
+      "origin": "Leonera",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "10n": {
+      "origin": "Los Bloques",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "10o": {
+      "origin": "Porvenir",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "10p": {
+      "origin": "Leonera",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "10t": {
+      "origin": "Tumbes",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "11e": {
+      "origin": "Talcahuano",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "11f": {
+      "origin": "Talcahuano",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "11q": {
+      "origin": "Los Bloques",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "11r": {
+      "origin": "Los Bloques",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "12a": {
+      "origin": "Leonera",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "12b": {
+      "origin": "Leonera",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "12q": {
+      "origin": "Puerto",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "12r": {
+      "origin": "Puerto",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "13g": {
+      "origin": "Puerta Los Leones",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "13s": {
+      "origin": "Leonera",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "14h": {
+      "origin": "San Vicente",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "14t": {
+      "origin": "Los Altos",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "14u": {
+      "origin": "Los Altos - Policlinico",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "14z": {
+      "origin": "Terminal Collao",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "16h": {
+      "origin": "San Vicente",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "16i": {
+      "origin": "San Vicente",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "16k": {
+      "origin": "Leonera",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "16v": {
+      "origin": "Leonera",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "17a": {
+      "origin": "Cerro Verde Bajo",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "17o": {
+      "origin": "Valle Nonguen",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "17w": {
+      "origin": "Porvenir - Los Bloques",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "17x": {
+      "origin": "Porvenir - Los Bloques",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "18p": {
+      "origin": "Rinconada",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "18y": {
+      "origin": "Palomares",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "20a": {
+      "origin": "Puerta Los Leones",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "20j": {
+      "origin": "Puerta Los Leones",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "20l": {
+      "origin": "Boca Sur",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "20v": {
+      "origin": "Boca Sur",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "20w": {
+      "origin": "San Pedro De La Costa",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "20z": {
+      "origin": "Puerta Los Leones",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "21b": {
+      "origin": "Candelaria",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "21q": {
+      "origin": "Terminal Collao",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "22c": {
+      "origin": "Lomas Coloradas - Coloane",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "22d": {
+      "origin": "Michaihue",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "22e": {
+      "origin": "Candelaria",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "22j": {
+      "origin": "Collao",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "22k": {
+      "origin": "La Araucana",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "22n": {
+      "origin": "Michaihue",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "22o": {
+      "origin": "San Pedro De La Costa",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "22r": {
+      "origin": "Universidad Bio Bio",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "22s": {
+      "origin": "La Araucana",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "22x": {
+      "origin": "Galvarino - Hospital Regional",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "23a": {
+      "origin": "Terminal Collao",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "23l": {
+      "origin": "Michaihue",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "23n": {
+      "origin": "Terminal Collao",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "23p": {
+      "origin": "Valle Nongu�n",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "23q": {
+      "origin": "Michaihue",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "23t": {
+      "origin": "San Pedro De La Costa",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "24f": {
+      "origin": "Los Fresnos",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "24m": {
+      "origin": "Candelaria",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "24r": {
+      "origin": "Candelaria",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "24t": {
+      "origin": "Los Fresnos",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "30b": {
+      "origin": "Lirquen",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "30c": {
+      "origin": "Lirquen",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "30d": {
+      "origin": "Rios De Chile",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "30e": {
+      "origin": "Penco Chile",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "30m": {
+      "origin": "Industrias",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "30n": {
+      "origin": "Industrias",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "30q": {
+      "origin": "Mall - Las Higueras",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "30r": {
+      "origin": "Las Higueras",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "31d": {
+      "origin": "Lobos Viejos",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "31f": {
+      "origin": "Lirqu�n",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "32e": {
+      "origin": "Lobos Viejos",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "32g": {
+      "origin": "Rios De Chile",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "32h": {
+      "origin": "Lobos Viejos",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "32y": {
+      "origin": "Rios De Chile",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "40b": {
+      "origin": "La Araucana",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "40g": {
+      "origin": "Candelaria",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "40n": {
+      "origin": "4 Esquinas",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "40p": {
+      "origin": "4 Esquinas",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "41c": {
+      "origin": "Terminal Collao",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "41q": {
+      "origin": "Centro",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "41r": {
+      "origin": "4 Esquinas",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "41v": {
+      "origin": "4 Esquinas",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "42f": {
+      "origin": "4 Esquinas",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "42h": {
+      "origin": "4 Esquinas",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "42u": {
+      "origin": "Terminal Collao",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "42w": {
+      "origin": "Centro Concepci�n",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "43j": {
+      "origin": "Santa Sabina",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "43t": {
+      "origin": "Ccu",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "44e": {
+      "origin": "Lomas De San Andr�s",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "44u": {
+      "origin": "Hualpencillo - Diego Portales",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "50s": {
+      "origin": "Centro Concepci�n",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "50u": {
+      "origin": "Las Higueras - Gaete",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "52a": {
+      "origin": "Puerta Los Leones",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "52d": {
+      "origin": "Palomares",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "56o": {
+      "origin": "Puerta Los Leones",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "56v": {
+      "origin": "Los Fresnos",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "57p": {
+      "origin": "San Vicente",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "57y": {
+      "origin": "Cosmito",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "60k": {
+      "origin": "Santa Sabina",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "60l": {
+      "origin": "Lomas",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "60m": {
+      "origin": "Bario Norte - Santa Sabina",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "60x": {
+      "origin": "Hualp�n",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "60y": {
+      "origin": "Padre Hurtado",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "60z": {
+      "origin": "Pedro De Valdivia",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "62h": {
+      "origin": "Lirquen",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "62m": {
+      "origin": "San Vicente",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "62n": {
+      "origin": "San Vicente",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "62o": {
+      "origin": "Villa Cap - Barrio Norte",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "63f": {
+      "origin": "Chillancito",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "63g": {
+      "origin": "Barrio Norte",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "63h": {
+      "origin": "Barrio Norte",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "63i": {
+      "origin": "Recodo",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "63k": {
+      "origin": "Juan Pablo Ii",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "63p": {
+      "origin": "Barrio Norte",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "65d": {
+      "origin": "Ren� Schneider",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "65e": {
+      "origin": "Pe�uelas",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "65q": {
+      "origin": "Santa Sabina",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "65r": {
+      "origin": "Santa Sabina",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "70f": {
+      "origin": "Valle Nongu�n",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "70g": {
+      "origin": "Los Copihues",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "70h": {
+      "origin": "Caleta Plata - Nonguen",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "70i": {
+      "origin": "Centinela",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "70j": {
+      "origin": "Valle Nongu�n",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "70k": {
+      "origin": "Nongu�n - Caleta Plata",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "71i": {
+      "origin": "Caleta Lengua",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "71z": {
+      "origin": "Valle Nongu�n",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "72j": {
+      "origin": "Lonco",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "72k": {
+      "origin": "Lonco",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "72w": {
+      "origin": "Valle Nongu�n",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "72z": {
+      "origin": "Valle Noble",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "80h": {
+      "origin": "Hualqui",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "80j": {
+      "origin": "San Vicente",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "80k": {
+      "origin": "San Vicente",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "80l": {
+      "origin": "San Vicente",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "80q": {
+      "origin": "Santa Josefina",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "80z": {
+      "origin": "Valle La Piedra",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "81c": {
+      "origin": "Puerto",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "81s": {
+      "origin": "Hualqui",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "90e": {
+      "origin": "Lagos De Chile",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "90j": {
+      "origin": "Parque Central",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "90x": {
+      "origin": "Parque Central",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "90y": {
+      "origin": "Los Queules",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "B02": {
+      "origin": "Eim Concepci�n - Udla Casino",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "Linea 1": {
+      "origin": "-",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   },
+   "Linea 2": {
+      "origin": "-",
+      "destiny": "",
+      "color_id": 1,
+      "stopsI": "",
+      "stopsR": "",
+      "scheduleI": "-",
+      "scheduleR": "-"
+   }
+}
