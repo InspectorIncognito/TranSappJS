@@ -27,7 +27,7 @@ var options;
      *                            gridData, routeData and serviceData.
      * @parameter dataUrl         path to the json data
      */
-    loadData: function (successFunction, dataUrl) {
+    loadData: function (successFunction, dataUrl, config) {
 
         // add dataUrl to the object
         this.dataUrl = dataUrl;
@@ -45,7 +45,7 @@ var options;
         var stopFileName = 'busstops' + extension;
         var optionsFileName = 'options' + extension;
 
-        var pathToFiles = dataUrl + 'data/';
+        var pathToFiles = dataUrl + config + '/';
 
         var pathToGridFile = pathToFiles + gridFileName;
         var pathToRouteFile = pathToFiles + routeFileName;
@@ -135,14 +135,14 @@ var options;
      */
     getCellId: function (point) {
         // lower left corner
-        var MIN_LATITUDE = -33.6692;
-        var MIN_LONGITUDE = -70.874;
+        var MIN_LATITUDE = options.boundingBox.MIN_LATITUDE;
+        var MIN_LONGITUDE = options.boundingBox.MIN_LONGITUDE;
         // upper right corner
-        var MAX_LATITUDE = -33.3193;
-        var MAX_LONGITUDE = -70.4936;
+        var MAX_LATITUDE = options.boundingBox.MAX_LATITUDE;
+        var MAX_LONGITUDE = options.boundingBox.MAX_LONGITUDE;
         // width and height of each square
-        var SIDE_LAT = 0.00349861;
-        var SIDE_LON = 0.00380394;
+        var SIDE_LAT = options.boundingBox.SIDE_LAT;
+        var SIDE_LON = options.boundingBox.SIDE_LON;
 
         var iLat = parseInt((point.lat - MIN_LATITUDE) / SIDE_LAT);
         var iLon = parseInt((point.lng - MIN_LONGITUDE) / SIDE_LON);
@@ -240,6 +240,7 @@ var options;
 
         var stopIcon = this.getBusStopIcon();
         var stops = this.data.service[service]['stops' + direction].split('-');
+        console.log(stops);
         var stopData = this.data.busStop;
         $.each(stops, function (i, code) {
             var stop = stopData[code];
@@ -319,31 +320,8 @@ var options;
         var colorId = this.data.service[service].color_id;
         var busId;
 
-        switch (colorId) {
-            case 1:
-                busId = '02';
-                break;
-            case 2:
-                busId = '03';
-                break;
-            case 3:
-                busId = '04';
-                break;
-            case 4:
-                busId = '05';
-                break;
-            case 5:
-                busId = '06';
-                break;
-            case 6:
-                busId = '07';
-                break;
-            case 7:
-                busId = '08';
-                break;
-            default:
-                busId = '01';
-        }
+        if (colorId in this.options.buses) busId = this.options.buses[colorId].id;
+        else busId = this.options.buses.default.id;
 
         // doc: http://leafletjs.com/reference.html#icon
         var icon = L.icon({
@@ -382,35 +360,12 @@ var options;
      * @return hexadecimal color
      */
     getRouteColor: function (service) {
-        var color;
 
         var colorId = this.data.service[service].color_id;
+        var color;
 
-        switch (colorId) {
-            case 1:
-                color = '#ED1C24';
-                break;
-            case 2:
-                color = '#F58220';
-                break;
-            case 3:
-                color = '#FFD400';
-                break;
-            case 4:
-                color = '#00D5FF';
-                break;
-            case 5:
-                color = '#0067AC';
-                break;
-            case 6:
-                color = '#00B33C';
-                break;
-            case 7:
-                color = '#00D9A3';
-                break;
-            default:
-                color = '#ffffff';
-        }
+        if (colorId in this.options.buses) color = this.options.buses[colorId].color;
+        else color = this.options.buses.default.color;
 
         return color;
     }
