@@ -1,5 +1,6 @@
 "use strict";
 var options;
+
 (function (gtfsMapOperations, window) {
 
     // attach your functions to the global 'GTFS' variable
@@ -25,7 +26,8 @@ var options;
      *
      * @parameter successFunction Function that receives 3 parameter:
      *                            gridData, routeData and serviceData.
-     * @parameter dataUrl         path to the json data
+     * @parameter dataUrl         Path to the json data
+     * @parameter config          nameFolder to the json data
      */
     loadData: function (successFunction, dataUrl, config) {
 
@@ -96,6 +98,12 @@ var options;
         });
     },
 
+	/**
+     * set base layer of Leaflet map
+     *
+     * @parameter map  Leaflet map instance 
+     * @return    base Layer
+     */
     setLayerControl: function (map) {
         // set tile layer
         var grayStyle = 'https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=' + this.options.token;
@@ -227,7 +235,72 @@ var options;
 
         return routeLayer;
     },
+	
+    /**
+     * draw part of route as polylines
+     *
+     * @parameter routeLayer Leaflet layer where will save the polyline
+     * @parameter route      route with direction, 506I
+     * @parameter stopCode1  stop code 
+     * @parameter stopCode2  stop code 
+     */
+    drawPartOfRoute: function (routeLayer, route, stopCode1, stopCode2) {
+        
+		var self = this;
+		
+		var stop1 = this.data.busStop[stopCode1];
+		var stop2 = this.data.busStop[stopCode2];
+		
+		var stopLoc1 = L.latLng(stop1.latitude, stop1.longitude);
+		var stopLoc2 = L.latLng(stop2.latitude, stop2.longitude);
+		
+		var nearestIndexTo1 = 0;
+		var minDistTo1 = 1000000000;
+		var nearestIndexTo2 = 0;
+		var minDistTo2 = 1000000000;
+		
+		var r = this.getRoutes([route]);
+        var points = [];
+        $.each(r[0].route, function (i, p) {
+			var p = L.latLng(p.latitud, p.longitud);
+			
+            var distance1 = p.distanceTo(stopLoc1);
+            if (distance1 < minDistTo1) {
+                nearestIndexTo1 = i;
+                minDistTo1 = distance1;
+            }
+            var distance2 = p.distanceTo(stopLoc2);
+            if (distance2 < minDistTo2) {
+                nearestIndexTo2 = i;
+                minDistTo2 = distance2;
+            }
+			
+            points.push(p);
+        });
+		
+		var first = nearestIndexTo1;
+		var last = nearestIndexTo2;
+		var firstPoint = stopLoc1;
+        var lastPoint = stopLoc2;
+		if (nearestIndexTo2 < nearestIndexTo1) {
+			first = nearestIndexTo2;
+			firstPoint = stopLoc2;
+			last = nearestIndexTo1;
+			lastPoint = stopLoc1;
+		}
+		points = points.slice (first, last + 1);
+        points.unshift(firstPoint);
+        points.push(lastPoint);
 
+        var serviceWithoutDirection = route.substring(0, route.length - 1);
+        var polyline = L.polyline(points, {
+            color: self.getRouteColor(serviceWithoutDirection),
+            smoothFactor: 5.0
+        });
+        routeLayer.addLayer(polyline);
+
+        return routeLayer;
+    },
     /**
      * draw bus stops for specific service
      *
